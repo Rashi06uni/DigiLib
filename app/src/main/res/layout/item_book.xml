@@ -1,0 +1,75 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:background="@drawable/book_card_background">
+
+        <!-- Book title -->
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#412330"
+            android:maxLines="2"/>
+
+        <!-- Author -->
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="by Author"
+            android:textSize="15sp"
+            android:textColor="#916978"
+            android:layout_marginTop="6dp"/>
+
+        <!-- Category -->
+        <TextView
+            android:id="@+id/tvBookCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programming"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#9D1943"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="7dp"
+            android:background="#FCE8EF"
+            android:layout_marginTop="14dp"/>
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvBookStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVAILABLE"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="7dp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- View details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW DETAILS  →"
+            android:textColor="#9D1943"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <style name="Base.Theme.DIGITALIB"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#AE234E</item>
+        <item name="colorSecondary">#E58AA8</item>
+        <item name="android:statusBarColor">#9D1943</item>
+        <item name="android:navigationBarColor">#FFF6F9</item>
+
+    </style>
+
+    <style name="Theme.DIGITALIB"
+        parent="Base.Theme.DIGITALIB" />
+</resources>
